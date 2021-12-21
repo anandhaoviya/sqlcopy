@@ -1,0 +1,9 @@
+sudo apt-get install -y putty
+
+sudo apt install putty-tools
+
+cd Downloads
+
+sudo puttygen kam.pem -o kam.ppk -O private
+
+sudo chmod 777 kam.ppk
